@@ -67,18 +67,6 @@ if [ "$files" != '' ]; then
 	fi
 fi
 
-echo "RIGHT HERE"
-files=''
-for file in `ls $directory`; do
-	echo $file
-	files+=" $file"
-done
-echo $files
-echo "Trying stuff"
-for file in $files; do
-	echo $file
-done
-
 # Make src folder and change file permissions
 if [ "$directory" != '']; then
 	for file in `ls $directory`; do
@@ -95,7 +83,6 @@ done
 mkdir -p rosproject/src/project
 mv $files rosproject/src/project
 cd rosproject/src
-
 
 echo "Initializing catkin..."
 catkin_init_workspace
