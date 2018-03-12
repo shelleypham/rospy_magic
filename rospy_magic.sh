@@ -15,6 +15,7 @@
 #	-h: help
 #
 # ./rospy_magic.sh -f "pyfile1.py pyfile2.py"
+# ./rospy_magic.sh -d directory_name
 #
 # Note:
 # Make sure to run this script in the same directory as your python file
