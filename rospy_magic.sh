@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Author: Shelley Pham
+# Author: Shelley Pham, Roy Redman, Reza Mansouri
 # This bash script will create a new catkin package, build a workspace, create
 # a src folder for the specified python scripts, and run roscore. If turtlesim
 # is taken as an argument, it will run turtlesim.
